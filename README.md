@@ -16,7 +16,7 @@ Or grab the latest installers directly from the
 |---|---|
 | macOS (Apple Silicon) | `Aurora-macOS-arm64.dmg` |
 | macOS (Intel) | `Aurora-macOS-x64.dmg` |
-| Windows 10/11 (x64) | `Aurora-Windows-x64-Setup.exe` |
+| Windows 10/11 (x64) | `Aurora-Windows-x64.exe` |
 | Linux (AppImage, x64) | `Aurora-Linux-x86_64.AppImage` |
 | Linux (Debian/Ubuntu, x64) | `Aurora-Linux-amd64.deb` |
 
@@ -28,12 +28,18 @@ shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 
 ## Early-access note
 
-Current macOS builds are **unsigned and unnotarized** and are intended for
-**internal testers only**. macOS Gatekeeper will warn that Aurora cannot be
-verified and may block it entirely. If you are not a tester, use the
-[Aurora web app](https://aurora-web-phi.vercel.app) — a signed, notarized
-release is the next milestone. Only install Aurora from this repository or
-the official website.
+Current builds are **unsigned early-access builds**:
+
+- **macOS** builds are unsigned and unnotarized and are intended for
+  **internal testers only**. Gatekeeper will warn that Aurora cannot be
+  verified and may block it entirely. If you are not a tester, use the
+  [Aurora web app](https://aurora-web-phi.vercel.app) — a signed, notarized
+  release is the next milestone.
+- **Windows** builds are not yet code-signed, so SmartScreen will warn before
+  the installer runs. Windows and Linux builds start in microphone-only mode;
+  system-audio capture is on the roadmap.
+
+Only install Aurora from this repository or the official website.
 
 ## Support
 
