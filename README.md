@@ -17,8 +17,8 @@ Or grab the latest installers directly from the
 | macOS (Apple Silicon) | `Aurora-macOS-arm64.dmg` |
 | macOS (Intel) | `Aurora-macOS-x64.dmg` |
 | Windows 10/11 (x64) | `Aurora-Windows-x64-Setup.exe` |
-| Linux (AppImage, x64) | `Aurora-Linux-x64.AppImage` |
-| Linux (Debian/Ubuntu, x64) | `Aurora-Linux-x64.deb` |
+| Linux (AppImage, x64) | `Aurora-Linux-x86_64.AppImage` |
+| Linux (Debian/Ubuntu, x64) | `Aurora-Linux-amd64.deb` |
 
 Every release includes a `SHA256SUMS.txt`. Verify a download with:
 
