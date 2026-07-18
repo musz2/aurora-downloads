@@ -28,9 +28,12 @@ shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 
 ## Early-access note
 
-Current builds may be **unsigned** (early access). macOS will warn on first
-launch — right-click the app and choose *Open*. Only install Aurora from this
-repository or the official website.
+Current macOS builds are **unsigned and unnotarized** and are intended for
+**internal testers only**. macOS Gatekeeper will warn that Aurora cannot be
+verified and may block it entirely. If you are not a tester, use the
+[Aurora web app](https://aurora-web-phi.vercel.app) — a signed, notarized
+release is the next milestone. Only install Aurora from this repository or
+the official website.
 
 ## Support
 
